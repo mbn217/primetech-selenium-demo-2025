@@ -34,6 +34,8 @@ public class CssSelectorExample {
         WebElement para2ByClassShort = driver.findElement(By.cssSelector(".sub"));
         System.out.println("Using short class css syntax: " + para2ByClassShort.getText());
 
+        driver.quit();
+
 
 
 
