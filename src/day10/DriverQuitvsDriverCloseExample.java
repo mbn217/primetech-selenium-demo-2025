@@ -28,6 +28,16 @@ public class DriverQuitvsDriverCloseExample {
 
         System.out.println("The driver instance ---->  " + driver);
 
+        /**
+         * close() , if you have more than 1 tab then it will close only the tab where driver
+         * is focusing
+         *
+         * if you have only one tab then it will close that tab
+         */
 
+        /**
+         * driver.quit() will kill all the running instances of the driver (it will close
+         * all the tabs that are open , regardless of the focus) and make the driver null
+         */
     }
 }
