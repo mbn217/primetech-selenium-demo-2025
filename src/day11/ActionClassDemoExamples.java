@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import utilities.SeleniumUtils;
 
 public class ActionClassDemoExamples {
     public static void main(String[] args) {
@@ -85,7 +86,9 @@ public class ActionClassDemoExamples {
 
         actions.clickAndHold(sourceOne).moveToElement(destinationOne).release().build().perform();
         actions.clickAndHold(sourceTwo).moveToElement(destinationTwo).release().build().perform();
-        driver.quit();
+
+
+        //driver.quit();
 
     }
 
